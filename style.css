@@ -1,0 +1,51 @@
+:root {
+  --slidev-code-font-size: 1.1em!important;
+  --slidev-code-line-height: 1.3em!important;
+}
+
+.code-small-font {
+  --slidev-code-font-size: 0.9em!important;
+  --slidev-code-line-height: 1.1em!important;
+}
+
+.code-extra-small-font {
+  --slidev-code-font-size: 0.7em!important;
+  --slidev-code-line-height: 1em!important;
+}
+
+.highlighted-listing {
+  color: darkgray;
+}
+
+.highlighted-listing .current{
+  color: black;
+  font-weight: 800;
+}
+
+.highlighted-listing .not-shown{
+  color: black;
+  visibility: hidden;
+}
+
+.full-center {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-center > * {
+  flex-grow: 1;
+}
+
+.stack {
+  position: relative;
+}
+
+.stack > img{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
