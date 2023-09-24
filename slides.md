@@ -9,9 +9,10 @@ title: 'Kubeletosaurus Wrecks: When memory meets its limits'
 mdc: true
 download: true
 defaults:
-    layout: center
+  layout: center
 layout: image
 image: /intro.png
+colorSchema: light
 ---
 
 ---
