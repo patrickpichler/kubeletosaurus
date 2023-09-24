@@ -158,6 +158,8 @@ func (kl *Kubelet) SyncPod(ctx context.Context,
 </div>
 
 ---
+class: invert-colors
+---
 
 <div class="highlighted-listing">
     <h1 class="current">Creating mirror pod for static pods</h1>
@@ -202,6 +204,8 @@ func (kl *Kubelet) SyncPod(/*...*/) (isTerminal bool, err error) {
 
 </v-clicks>
 
+---
+class: invert-colors
 ---
 
 <div class="highlighted-listing">
@@ -254,6 +258,9 @@ func (kl *Kubelet) SyncPod(/*...*/) (isTerminal bool, err error) {
 layout: image
 image: /unix-system-files.png
 ---
+
+---
+class: invert-colors
 ---
 
 <div class="highlighted-listing">
@@ -343,6 +350,8 @@ spec:
 </div>
 
 ---
+class: invert-colors
+---
 
 <div class="highlighted-listing">
     <h1>Creating mirror pod for static pods</h1>
@@ -393,6 +402,8 @@ func (kl *Kubelet) SyncPod(/*...*/) (isTerminal bool, err error) {
 </v-clicks>
 
 
+---
+class: invert-colors
 ---
 
 <div class="highlighted-listing">

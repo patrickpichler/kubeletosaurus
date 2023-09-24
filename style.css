@@ -18,7 +18,6 @@
 }
 
 .highlighted-listing .current{
-  color: black;
   font-weight: 800;
 }
 
@@ -48,4 +47,14 @@
   top: 0;
   left: 0;
 
+}
+
+.invert-colors {
+  background-color: black;
+  color: darkgray;
+}
+
+.invert-colors .highlighted-listing .current{
+  font-weight: 800;
+  color: white!important;
 }
