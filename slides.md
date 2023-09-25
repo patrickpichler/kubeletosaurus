@@ -699,7 +699,7 @@ layout: full
 
 <div class="full-center">
 
-```go {|2}
+```go {|2|1}
 // pkg/kubelet/cri/remote/remote_runtime.go:49
 // remoteRuntimeService is a gRPC implementation of internalapi.RuntimeService.
 type remoteRuntimeService struct {
