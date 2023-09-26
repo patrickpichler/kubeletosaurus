@@ -1373,6 +1373,11 @@ I am going to make a whole talk/blog <br/> series out of this
 
 ---
 layout: image
+image: /personal-blog.png
+---
+
+---
+layout: image
 image: /outro.png
 ---
 
