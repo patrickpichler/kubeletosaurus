@@ -99,6 +99,13 @@ layout: section
 
 ---
 
+![](/kubernetes-architecture.svg)
+https://kubernetes.io/docs/concepts/overview/components/
+
+<Arrow x1="300" y1="200" x2="410" y2="300" color="red"/>
+
+---
+
 ![](/k8s-org.png)
 
 <!--
@@ -202,7 +209,7 @@ image: /welcome-to-kubelet-source.png
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: end; height: 100%;">
 
 <p style="font-size: 40px; line-height: 40px; font-weight: bold; text-align: center;">
-Welcome,<br/> to the kubelet source code!
+Welcome,<br/> to Kubelet Park!
 </p>
 
 </div>
@@ -210,6 +217,12 @@ Welcome,<br/> to the kubelet source code!
 <!--
 * nice with source code located, next question arose
 -->
+
+---
+layout: section
+---
+
+# How does kubernetes enforce memory limits?
 
 ---
 layout: section
@@ -625,6 +638,19 @@ type Kubelet struct {
 layout: full
 ---
 
+<div class="full-center">
+
+```go
+// pkg/kubelet/kuberuntime/kuberuntime_manager.go:98
+type kubeGenericRuntimeManager struct {
+}
+```
+</div>
+
+---
+layout: full
+---
+
 <div class="full-center code-small-font">
 
 ```go {|3-4|5-6|8-13}
@@ -675,7 +701,7 @@ layout: full
 
 <div class="full-center">
 
-```go
+```go {|5}
 func (m *kubeGenericRuntimeManager) createPodSandbox(/*...*/)
                                         (string, string, error) {
     // ...
