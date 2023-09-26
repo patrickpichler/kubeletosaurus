@@ -418,18 +418,18 @@ func (kl *Kubelet) SyncPod(/*...*/) (isTerminal bool, err error) {
 
 <!--
 * once again, here is how it looks like in code
-* these data directories are special folders on the host
+* these data directories are special folders on the node
 -->
 
 ---
 
-# Folder on the host
+# Folder on the node
 
 <v-clicks>
 
 # Kubelet stores pod related state
 
-# E.g. effective hosts file, resolved secrets
+# E.g. effective hosts file, resolved secrets ready to be mounted
 
 </v-clicks>
 
